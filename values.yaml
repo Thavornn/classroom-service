@@ -1,0 +1,9 @@
+replicaCount: 1
+
+image:
+  repository: "pinkmelon/classroom-service"
+  tag: "1"
+
+service:
+  type: LoadBalancer
+  port: 8082
