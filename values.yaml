@@ -7,3 +7,5 @@ image:
 service:
   type: LoadBalancer
   port: 8082
+
+revisionHistoryLimit: 3
