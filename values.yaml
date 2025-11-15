@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: "pinkmelon/classroom-service"
-  tag: 24
+  tag: 25
 
 service:
   type: LoadBalancer
