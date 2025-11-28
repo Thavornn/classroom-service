@@ -33,6 +33,9 @@ spec:
   
             - name: SPRING_CLOUD_OPENFEIGN_CLIENT_CONFIG_AUTHSERVICE_URL
               value: "http://auth-service.hrd-portal.svc.cluster.local:8081"
+            - name: SPRING_CLOUD_OPENFEIGN_CLIENT_CONFIG_RESOURCESERVICE_URL
+              value: "http://resource-service.resource-service.svc.cluster.local:8081"
+          
             - name: SPRING_CLOUD_OPENFEIGN_CLIENT_CONFIG_USERMANAGEMENTSERVICE_URL
               value: "http://user-management-service.hrd-portal.svc.cluster.local:8083"
 
