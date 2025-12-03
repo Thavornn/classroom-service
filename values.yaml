@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: "pinkmelon/classroom-service"
-  tag: 91
+  tag: 92
 
 service:
   type: NodePort
