@@ -41,4 +41,5 @@ spec:
 
             - name: SPRING_PROFILES_ACTIVE
               value: "prod"
-            
+            - name: SPRING_CLOUD_OPENFEIGN_CLIENT_CONFIG_TASKSERVICE_URL
+              value: "http://task-service.task-service.svc.cluster.local:8084"
